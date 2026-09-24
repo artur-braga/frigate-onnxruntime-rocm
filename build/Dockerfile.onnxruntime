@@ -54,6 +54,7 @@ RUN python3.11 tools/ci_build/build.py \
     --skip_tests \
     --build_wheel \
     --use_vitisai \
+    --wheel_name_suffix=vitisai
     --use_migraphx \
     --migraphx_home=/opt/rocm \
     --compile_no_warning_as_error \
